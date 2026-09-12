@@ -26,7 +26,7 @@ export default function About() {
           <h2 className="mb-3 text-[clamp(30px,4vw,46px)] font-extrabold leading-[1.06] tracking-[-1.5px]">Membuat sistem digital yang benar-benar bisa dipakai.</h2>
           <p className="max-w-[620px] leading-[1.75] text-slate-400">Saya suka mengubah kebutuhan bisnis menjadi alur digital yang jelas: pelanggan mudah order, admin mudah mengelola, dan proses di belakang tetap terpantau. Dari bot auto-order hingga payment flow dan deployment, saya mengerjakan bagian yang membuat produk siap digunakan.</p>
           <div className="my-6 h-px bg-gradient-to-r from-cyan-300 to-transparent opacity-35" />
-          <p className="max-w-[620px] leading-[1.75] text-slate-400">Nama saya adalah <b className="text-white">Kiki Pratama</b>. <b className="text-cyan-300">senna.dev</b> adalah identitas digital dan tempat saya membangun project.</p>
+          <p className="max-w-[620px] leading-[1.75] text-slate-400">Nama saya adalah <b className="text-white">Kiki Pratama</b>. <b className="text-cyan-300">senna.dev</b> adalah identitas digital dan tempat saya membangun project. Saat ini saya sedang mendalami cloud dan backend tingkat lanjut untuk membangun sistem yang lebih scalable.</p>
         </motion.div>
       </div>
     </section>

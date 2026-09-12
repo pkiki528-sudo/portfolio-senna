@@ -3,15 +3,15 @@
 import { motion } from 'framer-motion';
 
 const services = [
-  { n: '01', t: 'Telegram Bot', d: 'Bot auto-order, sistem saldo, katalog produk, notifikasi, admin command, dan alur delivery digital.' },
-  { n: '02', t: 'Web & Dashboard', d: 'Landing page, storefront, Mini App, serta dashboard admin yang cepat dan nyaman digunakan.' },
-  { n: '03', t: 'Payment Integration', d: 'Alur QRIS/invoice, webhook, status pembayaran, topup, dan pencatatan order yang lebih rapi.' },
-  { n: '04', t: 'Deploy & Maintenance', d: 'Persiapan project untuk Pterodactyl atau VPS, konfigurasi environment, dan pengecekan dasar sebelum live.' },
-  { n: '05', t: 'Perbaikan Bot', d: 'Audit error, perapihan fitur, debugging alur order, keamanan konfigurasi, hingga stabilitas runtime.' },
-  { n: '06', t: 'Custom Project', d: 'Punya ide khusus? Kita mulai dari scope MVP agar fitur inti jadi dulu dan bisa ditest lebih cepat.' },
+  { n: '01', t: 'Bot Telegram Auto-Order', d: 'Katalog, stok, saldo user, riwayat order, notifikasi, dan panel admin. Contoh sistem seperti SennMarket / auto-order store.' },
+  { n: '02', t: 'Web & Dashboard', d: 'Landing page, katalog produk, Mini App Telegram, dan dashboard admin yang cepat dibuka di HP.' },
+  { n: '03', t: 'Integrasi Pembayaran QRIS', d: 'Invoice dibuat otomatis, status pembayaran dicek otomatis, dan order langsung diproses setelah bayar.' },
+  { n: '04', t: 'Fix & Upgrade Bot', d: 'Bot lama error, lemot, atau fiturnya berantakan? Saya audit alurnya, perbaiki bug, dan bikin stabil lagi.' },
+  { n: '05', t: 'Deploy VPS & Pterodactyl', d: 'Install sampai jalan, setting environment yang aman, dan pengecekan dasar sebelum live.' },
+  { n: '06', t: 'Backend & Cloud — In Progress', d: 'Sedang mendalami backend advanced & cloud: Docker, API scaling, dan CI/CD untuk sistem yang lebih scalable.' },
 ];
 
-const stack = ['Go', 'Node.js', 'Telegram Bot API', 'REST API', 'QRIS / Webhook', 'SQLite / JSON', 'Pterodactyl', 'VPS'];
+const stack = ['Go', 'Node.js', 'Next.js', 'TypeScript', 'Telegram Bot API', 'REST API', 'QRIS / Webhook', 'Docker (learning)', 'CI/CD (learning)', 'Pterodactyl', 'VPS'];
 
 export default function Skills() {
   return (
