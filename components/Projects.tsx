@@ -17,6 +17,13 @@ const projects = [
     href: 'https://sennpayy.biz.id',
     link: 'Kunjungi sennpayy.biz.id →',
   },
+  {
+    label: '03 / FINANCE WEB APP',
+    title: 'Kasaku',
+    desc: 'Aplikasi pencatatan keuangan pribadi & usaha dengan auth, paket langganan PayKita, PWA, dan dashboard modern.',
+    href: 'https://kasaku.biz.id',
+    link: 'Kunjungi kasaku.biz.id →',
+  },
 ];
 
 export default function Projects() {
